@@ -5,12 +5,12 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Ajudando pessoas com problemas de gastos excessivos.
+Ajudando pessoas com problemas de gastos indiscriminados, que querem se organizar e começar a investir.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-Alertando o usuário de seus gastos e os ajudando a organiza-los de maneira eficiente.
+Ajudando o usuário iniciante em investimentos e finanças a organiza-los de maneira eficiente.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
