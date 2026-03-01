@@ -5,39 +5,41 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Ajudando pessoas com problemas de gastos excessivos.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Alertando o usuário de seus gastos e os ajudando a organiza-los de maneira eficiente.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Todos os usuários que querem melhorar sua vida financeira pessoal.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Finn (Finanças)
 
 ### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
+- Educativo e prático
+- Com boa didática em gestão
+- Sem fazer suposições do usuário baseado em gastos pessoais
 
 [Sua descrição aqui]
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Formal, acessível e educativo, como um gestor de finanças.
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Olá! Me chamo Finn, seu gestor de gastos. Como posso ajudar com suas finanças hoje?"
+- Confirmação: "Entendido! já estou verificando isso para você." / " Te ajudarei com isso agora mesmo, com um passo a passo: ..."
+- Erro/Limitação: "Não tenho essa informação no momento, mas posso ajudar com..." / " Não posso interferir diretamente com seus gastos pessoais, porém posso ajudar com ..."
 
 ---
 
@@ -47,7 +49,7 @@
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
+    A[Usuário] -->|Mensagem| B[Interface]
     B --> C[LLM]
     C --> D[Base de Conhecimento]
     D --> C
@@ -59,10 +61,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Streamlit](https://streamlit.io) |
+| LLM | Ollama (local) |
+| Base de Conhecimento | JSON/CSV mockados na pasta `data` |
+| Validação | Checagem de alucinações |
 
 ---
 
@@ -70,12 +72,16 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] Agente só responde com base nos dados e contextos fornecidos
+- [x] Respostas incluem fonte da informação ou lógica usada para chegar na resposta
+- [x] Quando não tem a resposta, admite e redireciona, ou ajuda de outra forma
+- [x] Não faz recomendações de investimento
+- [x] É didático, não dando recomendações vinculantes
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não substitui profissionais certificados
+- Não acessa dados bancários sensíveis
+- Não recomenda investimentos
+- Não interfere nem julga gastos pessoais 
