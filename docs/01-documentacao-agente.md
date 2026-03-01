@@ -5,7 +5,7 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Ajudando pessoas com problemas de gastos indiscriminados, que querem se organizar e começar a investir.
+Muitas pessoas tem problemas de gastos indiscriminados e desordenados, porém o agente os ajudará a se organizarem e começarem a investir.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
