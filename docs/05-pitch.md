@@ -73,6 +73,9 @@ O Finn não apenas responde perguntas — ele **educa o usuário para tomar deci
 ---
 
 ### 3. Demonstração (1 min)
+## Demonstração do Finn
+
+![Demonstração do Finn](assets/finn-demo.gif)
 
 Na demonstração, será apresentado o funcionamento do agente em uma interface interativa construída com **Streamlit**.
 
