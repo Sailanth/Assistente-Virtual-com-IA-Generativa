@@ -1,7 +1,5 @@
 # 🚀 Pitch — Finn (3 minutos)
 
-> Você pode usar alguns slides para apoiar o pitch e mostrar a solução na prática.
-
 ---
 
 # Pitch (3 minutos)
@@ -150,6 +148,5 @@ o **Finn é a ferramenta que transforma conhecimento financeiro em decisões pr�
 
 ## Link do Vídeo
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
+[[Link do vídeo](https://drive.google.com/file/d/1gUGm2X5eAn-IaYNvVdcdzAzAtOmb8oJJ/view?usp=drive_link)]
