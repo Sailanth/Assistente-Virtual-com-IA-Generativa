@@ -73,9 +73,8 @@ O Finn não apenas responde perguntas — ele **educa o usuário para tomar deci
 ---
 
 ### 3. Demonstração (1 min)
-## Demonstração do Finn
 
-![Demonstração do Finn](assets/finn-demo.gif)
+
 
 Na demonstração, será apresentado o funcionamento do agente em uma interface interativa construída com **Streamlit**.
 
@@ -105,7 +104,8 @@ Isso demonstra que o agente:
 - Analisa o contexto financeiro
 - Evita recomendações irresponsáveis
 - Atua de forma educativa
-
+## Demonstração do Finn
+![Demonstração do Finn](/assets/finn-demo.gif)
 ---
 
 ### 4. Diferencial e Impacto (30 seg)
